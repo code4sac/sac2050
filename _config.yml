@@ -1,0 +1,30 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Sac2050
+tagline:             Shaping the future of Sacramento, together.
+url:                 https://sac2050.org
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            compressed
+
+# About/contact
+author:
+  name:              Code for Sacramento
+  url:               http://codeforsacramento.org
+  email:             sac2050@codeforsacramento.org
+
+# Custom vars
+version:
+github:
+  repo:              https://github.com/codeforsacramento/sac2050
