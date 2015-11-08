@@ -9,3 +9,13 @@ title: Home
   <p class="lead">Shaping the future of Sacramento, together.</p>
   <p><a href="https://github.com/code4sac/sac2050" target="_blank" class="btn btn-primary btn-lg">Learn more</a></p>
 </div>
+
+<ul>
+{% for category in site.data.categories %}
+  <li>
+    <a href="/{{ category.url }}">
+      {{ category.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>

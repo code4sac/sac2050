@@ -3,32 +3,33 @@
   <div class="container">
 
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#categories">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Sac2050 <small>beta</small></a>
+      <a class="navbar-brand" href="/">Sac2050 <small>beta</small></a>
     </div>
 
-    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          {% for member in site.data.categories %}
-            <li>
-              <a href="/{{ category }}">
-                {{ category.name }}
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </li>
+    <div class="collapse navbar-collapse" id="categories">
+      <!-- <ul class="nav navbar-nav">
+      </ul> -->
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            {% for category in site.data.categories %}
+              <li>
+                <a href="/{{ category.url }}">
+                  {{ category.name }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
       </ul>
-    </div> -->
+    </div>
 
   </div><!-- /.container-->
 </nav><!-- /.navbar -->

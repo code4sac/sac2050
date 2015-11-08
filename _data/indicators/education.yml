@@ -1,0 +1,48 @@
+- name: School Readiness
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: 3rd Grade Reading
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: 4th Grade Reading & Math
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: High School Graduation
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: High School Dropout
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: College Graduation
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Educational Attainment
+  description:
+  status:
+  time_period:
+  source:
+  source_url:

@@ -1,0 +1,41 @@
+- name: Air Quality
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Energy
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Historic Resources
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Land Preservation
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Solid Waste and Recycling
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Water Quality
+  description:
+  status:
+  time_period:
+  source:
+  source_url:

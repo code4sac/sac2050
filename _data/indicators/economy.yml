@@ -1,0 +1,55 @@
+- name: Business Climate
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Business Startups
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Employment Growth
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Innovation and Entrepreneurship
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Personal Income
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Poverty
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Unemployment
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Workforce Quality
+  description:
+  status:
+  time_period:
+  source:
+  source_url:

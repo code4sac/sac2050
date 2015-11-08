@@ -1,0 +1,34 @@
+- name: Crime
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Emergency Preparedness
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Juvenile Intakes
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Recidivism
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Traffic Fatalities
+  description:
+  status:
+  time_period:
+  source:
+  source_url:

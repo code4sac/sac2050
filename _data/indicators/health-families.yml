@@ -1,0 +1,90 @@
+- name: Adoption
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Cancer
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Cardiovascular Disease
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Child Abuse & Neglect
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Foster Care
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Health Insurance
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Immunization
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Infant Mortality
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Life Expectancy
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Obesity
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Smoking
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Suicide
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Teen Pregnancy
+  description:
+  status:
+  time_period:
+  source:
+  source_url:

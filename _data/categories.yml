@@ -1,0 +1,17 @@
+- name: The Economy
+  url: economy
+
+- name: Education
+  url: education
+
+- name: Health & Families
+  url: health-families
+
+- name: Public Safety
+  url: public-safety
+
+- name: Environmental Sustainability
+  url: sustainability
+
+- name: Transportation & Housing
+  url: transportation-housing

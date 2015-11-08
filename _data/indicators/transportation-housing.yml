@@ -1,0 +1,27 @@
+- name: Infrastructure Condition
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Land Use
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Multimodal Transportation
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Traffic Congestion
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
