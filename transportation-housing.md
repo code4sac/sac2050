@@ -1,13 +1,15 @@
 ---
-layout: default
+layout: category
+category: transportation-housing
 title: Transportation and Housing
 tagline: How much time do we spend in traffic? Is housing plenty and affordable?
 ---
 
-<ul>
-{% for indicator in site.data.indicators.transportation-housing %}
-  <li>
+{% for indicator in site.data.indicators.[page.category] %}
+  <h2>
     {{ indicator.name }}
-  </li>
+  </h2>
+  <hr>
+  <p>Chart...</p>
+  <p>Description...</p>
 {% endfor %}
-</ul>

@@ -1,13 +1,15 @@
 ---
-layout: default
+layout: category
+category: health-families
 title: Health and Families
 tagline: How healthy are we? Is our social safety net working?
 ---
 
-<ul>
-{% for indicator in site.data.indicators.health-families %}
-  <li>
+{% for indicator in site.data.indicators.[page.category] %}
+  <h2>
     {{ indicator.name }}
-  </li>
+  </h2>
+  <hr>
+  <p>Chart...</p>
+  <p>Description...</p>
 {% endfor %}
-</ul>

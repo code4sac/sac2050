@@ -21,7 +21,7 @@ body {
 }
 
 /* Home page indicators */
-.indicators {
+.dashboard {
 	padding-top: 40px;
 }
 .panel {
@@ -45,9 +45,9 @@ body {
 .fa-improving {
   color: #32cd32;
 }
-.fa-stagnant {
+.fa-steady {
   color: #ffc40c;
 }
-.fa-declining {
+.fa-worsening {
   color: #fa342e;
 }

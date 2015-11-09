@@ -1,13 +1,15 @@
 ---
-layout: default
+layout: category
+category: sustainability
 title: Environmental Sustainability
 tagline: Are we taking care of the environment? Do we have clean air and water?
 ---
 
-<ul>
-{% for indicator in site.data.indicators.sustainability %}
-  <li>
+{% for indicator in site.data.indicators.[page.category] %}
+  <h2>
     {{ indicator.name }}
-  </li>
+  </h2>
+  <hr>
+  <p>Chart...</p>
+  <p>Description...</p>
 {% endfor %}
-</ul>

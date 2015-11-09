@@ -1,13 +1,15 @@
 ---
-layout: default
+layout: category
+category: public-safety
 title: Public Safety
 tagline: Are we safe? Is crime on the rise or staying steady?
 ---
 
-<ul>
-{% for indicator in site.data.indicators.public-safety %}
-  <li>
+{% for indicator in site.data.indicators.[page.category] %}
+  <h2>
     {{ indicator.name }}
-  </li>
+  </h2>
+  <hr>
+  <p>Chart...</p>
+  <p>Description...</p>
 {% endfor %}
-</ul>

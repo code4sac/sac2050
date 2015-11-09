@@ -1,13 +1,15 @@
 ---
-layout: default
+layout: category
+category: economy
 title: The Economy
 tagline: What's our economic outlook? Are jobs increasing or decreasing?
 ---
 
-<ul>
-{% for indicator in site.data.indicators.economy %}
-  <li>
+{% for indicator in site.data.indicators.[page.category] %}
+  <h2>
     {{ indicator.name }}
-  </li>
+  </h2>
+  <hr>
+  <p>Chart...</p>
+  <p>Description...</p>
 {% endfor %}
-</ul>

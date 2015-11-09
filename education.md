@@ -1,13 +1,15 @@
 ---
-layout: default
+layout: category
+category: education
 title: K-12 and Higher Education
 tagline: Are children learning how to read and write? Are they prepared for college?
 ---
 
-<ul>
-{% for indicator in site.data.indicators.education %}
-  <li>
+{% for indicator in site.data.indicators.[page.category] %}
+  <h2>
     {{ indicator.name }}
-  </li>
+  </h2>
+  <hr>
+  <p>Chart...</p>
+  <p>Description...</p>
 {% endfor %}
-</ul>

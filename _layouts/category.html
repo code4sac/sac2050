@@ -1,0 +1,46 @@
+---
+layout:
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navbar.html %}
+
+    <div class="page-header">
+      <div class="container">
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.tagline }}</p>
+      </div>
+    </div>
+
+    <!-- Main container -->
+    <div class="container">
+
+      <div class="col-lg-3 col-md-3 col-sm-4">
+        <div class="list-group">
+          {% for indicator in site.data.indicators.[page.category] %}
+            <a class="list-group-item" href="#">
+              {{ indicator.name }}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="col-lg-9 col-md-9 col-sm-8">
+        {{ content }}
+      </div>
+
+    </div><!-- /.container -->
+
+    <!-- jQuery v1.11.3 (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap JS v3.3.5 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
