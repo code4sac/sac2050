@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Transportation and Housing
+tagline: How much time do we spend in traffic? Is housing plenty and affordable?
 ---
 
 <ul>

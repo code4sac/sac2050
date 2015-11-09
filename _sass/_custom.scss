@@ -1,0 +1,21 @@
+/* Required body padding for fixed navbar */
+body {
+  padding-top: 81px;
+}
+
+/* Header on category pages */
+.page-header {
+  margin-top: -21px;
+  margin-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 24px;
+  position: relative;
+  text-align: center;
+  background-color: $brand-primary;
+  color: #fff;
+}
+.page-header h1 {
+  font-size: 60px;
+  font-weight: bold;
+}

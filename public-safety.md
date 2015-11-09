@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Public Safety
+tagline: Are we safe? Is crime on the rise or staying steady?
 ---
 
 <ul>

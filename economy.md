@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The Economy
+tagline: What's our economic outlook? Are jobs increasing or decreasing?
 ---
 
 <ul>

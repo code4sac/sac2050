@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Health and Families
+tagline: How healthy are we? Is our social safety net working?
 ---
 
 <ul>
