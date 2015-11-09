@@ -19,3 +19,35 @@ body {
   font-size: 60px;
   font-weight: bold;
 }
+
+/* Home page indicators */
+.indicators {
+	padding-top: 40px;
+}
+.panel {
+	border: 0px solid transparent;
+	border-radius: 0px;
+	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+	box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+.panel-heading {
+	border-bottom: 0px solid transparent;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+.panel-title {
+  font-size: 28px;
+	font-weight: 800;
+}
+.lg-icon {
+	font-size: 120px;
+}
+.fa-improving {
+  color: #32cd32;
+}
+.fa-stagnant {
+  color: #ffc40c;
+}
+.fa-declining {
+  color: #fa342e;
+}

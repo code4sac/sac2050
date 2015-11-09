@@ -13,3 +13,133 @@ tagline: Shaping the future of Sacramento, together.
   </li>
 {% endfor %}
 </ul>
+
+<!-- Indicators -->
+<div class="indicators">
+<!-- <h2 class="page-header">Quality of Life Indicators</h1> -->
+
+  <!-- Row 1 indicators -->
+  <div class="row">
+
+    <!-- Economy -->
+    <div class="col-sm-4">
+      <div class="panel">
+        <div class="panel-heading text-center">
+          <h3 class="panel-title"><i class="fa fa-line-chart lg-icon"></i><br>The Economy</h3>
+        </div>
+        <div class="panel-body">
+          <ul class="list-unstyled">
+            {% for indicator in site.data.indicators.economy %}
+              <li>
+                {{ indicator.name }}
+                <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="col-sm-4">
+      <div class="panel">
+        <div class="panel-heading text-center">
+          <h3 class="panel-title"><i class="fa fa-graduation-cap lg-icon"></i><br>Education</h3>
+        </div>
+        <div class="panel-body">
+          <ul class="list-unstyled">
+            {% for indicator in site.data.indicators.education %}
+              <li>
+                {{ indicator.name }}
+                <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Health & Families -->
+    <div class="col-sm-4">
+      <div class="panel">
+        <div class="panel-heading text-center">
+          <h3 class="panel-title"><i class="fa fa-heartbeat lg-icon"></i><br>Health &amp; Families</h3>
+        </div>
+        <div class="panel-body">
+          <ul class="list-unstyled">
+            {% for indicator in site.data.indicators.health-families %}
+              <li>
+                {{ indicator.name }}
+                <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.row -->
+
+  <!-- Row 2 indicators -->
+  <div class="row">
+
+    <!-- Public Safety -->
+    <div class="col-sm-4">
+      <div class="panel">
+        <div class="panel-heading text-center">
+          <h3 class="panel-title"><i class="fa fa-exclamation-triangle lg-icon"></i><br>Public Safety</h3>
+        </div>
+        <div class="panel-body">
+          <ul class="list-unstyled">
+            {% for indicator in site.data.indicators.public-safety %}
+              <li>
+                {{ indicator.name }}
+                <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Natural Resources -->
+    <div class="col-sm-4">
+      <div class="panel">
+        <div class="panel-heading text-center">
+          <h3 class="panel-title"><i class="fa fa-tree lg-icon"></i><br>Environmental Sustainability</h3>
+        </div>
+        <div class="panel-body">
+          <ul class="list-unstyled">
+            {% for indicator in site.data.indicators.sustainability %}
+              <li>
+                {{ indicator.name }}
+                <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Transporation & Housing -->
+    <div class="col-sm-4">
+      <div class="panel">
+        <div class="panel-heading text-center">
+          <h3 class="panel-title"><i class="fa fa-bus lg-icon"></i><br>Transportation &amp; Housing</h3>
+        </div>
+        <div class="panel-body">
+          <ul class="list-unstyled">
+            {% for indicator in site.data.indicators.transportation-housing %}
+              <li>
+                {{ indicator.name }}
+                <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.row -->
+
+</div><!-- /.indicators -->
