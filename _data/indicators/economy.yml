@@ -1,6 +1,6 @@
 - name: Business Climate
   description:
-  status: improving
+  status: 
   time_period:
   source:
   source_url:
