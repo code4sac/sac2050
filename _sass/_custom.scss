@@ -3,6 +3,17 @@ body {
   padding-top: 81px;
 }
 
+/* Footer */
+footer {
+  margin: 2em 0;
+}
+footer li {
+  float: right;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 1.5em;
+}
+
 /* Header on category pages */
 .page-header {
   margin-top: -21px;
