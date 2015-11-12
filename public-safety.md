@@ -3,6 +3,7 @@ layout: category
 category: public-safety
 title: Public Safety
 tagline: Are we safe? Is crime on the rise or staying steady?
+comments: true
 ---
 
 {% for indicator in site.data.indicators.[page.category] %}

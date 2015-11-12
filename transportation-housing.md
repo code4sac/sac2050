@@ -3,6 +3,7 @@ layout: category
 category: transportation-housing
 title: Transportation and Housing
 tagline: How much time do we spend in traffic? Is housing plenty and affordable?
+comments: true
 ---
 
 {% for indicator in site.data.indicators.[page.category] %}

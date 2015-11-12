@@ -3,6 +3,7 @@ layout: category
 category: health-families
 title: Health and Families
 tagline: How healthy are we? Is our social safety net working?
+comments: true
 ---
 
 {% for indicator in site.data.indicators.[page.category] %}
