@@ -1,0 +1,15 @@
+- name: Example Bar Chart
+  slug: example-bar
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
+
+- name: Example Line Chart
+  slug: example-line
+  description:
+  status:
+  time_period:
+  source:
+  source_url:
