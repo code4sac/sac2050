@@ -34,7 +34,7 @@ We'll have six teams at the datathon focused on the following topics:
 - [Environmental Sustainability](/sustainability)
 - [Transportation and Housing](/transportation-housing)
 
-Each topic page has an existing list of indicators.
+Once you've decided on a topic, [assign yourself to a team here](https://docs.google.com/document/d/1lBB5TBRl09P8Sm8h2pZQ4pXo-Lv4mxX73a-AIOq4ufM/edit?usp=sharing). Each topic page has an existing list of indicators.
 
 ## Step 2: Choose an indicator
 
