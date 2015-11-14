@@ -36,6 +36,15 @@ footer li {
   font-weight: bold;
 }
 
+/* Padding for anchors */
+h2:before {
+  display: block;
+  content: " ";
+  margin-top: -81px;
+  height: 81px;
+  visibility: hidden;
+}
+
 /* Home page indicators */
 .dashboard {
 	padding-top: 40px;

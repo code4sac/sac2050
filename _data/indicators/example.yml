@@ -13,3 +13,11 @@
   time_period:
   source:
   source_url:
+
+- name: Example Pie Chart
+  slug: example-pie
+  description:
+  status:
+  time_period:
+  source:
+  source_url:

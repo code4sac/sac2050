@@ -1,5 +1,8 @@
 $(function () {
-    $('#example-line').highcharts({
+    $('#example-line-chart').highcharts({
+        credits: {
+          enabled: false
+        },
         title: {
             text: 'Monthly Average Temperature',
             x: -20 //center

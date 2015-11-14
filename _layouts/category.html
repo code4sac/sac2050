@@ -24,7 +24,7 @@ layout:
       <div class="col-lg-3 col-md-3 col-sm-4">
         <div class="list-group">
           {% for indicator in site.data.indicators.[page.category] %}
-            <a class="list-group-item" href="#">
+            <a class="list-group-item scroll" href="#{{ indicator.slug }}">
               {{ indicator.name }}
             </a>
           {% endfor %}
@@ -36,7 +36,7 @@ layout:
         {{ content }}
 
         {% include comments.html %}
-        
+
       </div>
 
     </div><!-- /.container -->

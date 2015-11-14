@@ -1,5 +1,8 @@
 $(function () {
-    $('#example-bar').highcharts({
+    $('#example-bar-chart').highcharts({
+        credits: {
+          enabled: false
+        },
         chart: {
             type: 'bar'
         },

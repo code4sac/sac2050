@@ -23,3 +23,11 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <!-- Disqus -->
 <script id="dsq-count-scr" src="https://sac2050.disqus.com/count.js" async></script>
+<!-- Smooth scroll -->
+<script>
+  $(".scroll").click(function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+
+  });
+</script>
