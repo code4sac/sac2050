@@ -65,12 +65,10 @@ What's the story? Is the trend improving, declining, or holding steady? Are ther
 
 ## Step 7: Submit your dataset, story, and metadata
 
-Submit your dataset here:
+### [Submit your metadata](https://deliveryunit.typeform.com/to/V5omdM)
 
-[insert link]
+Email your dataset file (e.g., .csv, .xlsx, etc.) to sac2050@codeforsacramento.org.
 
-If you used Google Sheets, be sure your file is publicly accessible. If you used Microsoft Excel, email your data to sac2050@codeforsacramento.org.
-
-#### Got questions? Leave a comment below.
+## Got questions? Leave a comment below.
 
 If you prefer to get in touch via email, drop us a line at sac2050@codeforsacramento.org.
