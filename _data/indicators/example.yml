@@ -21,3 +21,11 @@
   time_period:
   source:
   source_url:
+
+- name: Google Sheets Example
+  slug: google
+  description:
+  status:
+  time_period:
+  source:
+  source_url:

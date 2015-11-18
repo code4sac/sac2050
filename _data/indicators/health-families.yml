@@ -1,4 +1,5 @@
 - name: Adoption
+  slug:
   description:
   status:
   time_period:
@@ -6,6 +7,7 @@
   source_url:
 
 - name: Cancer
+  slug:
   description:
   status:
   time_period:
@@ -13,6 +15,7 @@
   source_url:
 
 - name: Cardiovascular Disease
+  slug:
   description:
   status:
   time_period:
@@ -20,6 +23,7 @@
   source_url:
 
 - name: Child Abuse & Neglect
+  slug:
   description:
   status:
   time_period:
@@ -27,6 +31,7 @@
   source_url:
 
 - name: Foster Care
+  slug:
   description:
   status:
   time_period:
@@ -34,6 +39,7 @@
   source_url:
 
 - name: Health Insurance
+  slug:
   description:
   status:
   time_period:
@@ -41,6 +47,7 @@
   source_url:
 
 - name: Immunization
+  slug:
   description:
   status:
   time_period:
@@ -48,6 +55,7 @@
   source_url:
 
 - name: Infant Mortality
+  slug:
   description:
   status:
   time_period:
@@ -55,6 +63,7 @@
   source_url:
 
 - name: Life Expectancy
+  slug:
   description:
   status:
   time_period:
@@ -62,6 +71,7 @@
   source_url:
 
 - name: Obesity
+  slug:
   description:
   status:
   time_period:
@@ -69,6 +79,7 @@
   source_url:
 
 - name: Smoking
+  slug:
   description:
   status:
   time_period:
@@ -76,6 +87,7 @@
   source_url:
 
 - name: Suicide
+  slug:
   description:
   status:
   time_period:
@@ -83,8 +95,9 @@
   source_url:
 
 - name: Teen Pregnancy
-  description:
-  status:
-  time_period:
-  source:
-  source_url:
+  slug: teen-pregnancy
+  description: In Sacramento from 2008 to 2011, there were 5509 births by mothers under 20.  The data shows a slight decline in births by mother under the age of 20 by almost a half of a percent perhaps due to education and awareness. Zip codes included are 95812 through 95835, 95838, 95841, 95842, 95864.
+  status: improving
+  time_period: 2008-2012
+  source: California Department of Public Health
+  source_url: https://cdph.data.ca.gov/Demographics/Births-by-Mother-s-Age-by-ZIP-Code-2008-2012/725w-e8qt

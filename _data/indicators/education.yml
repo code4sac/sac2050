@@ -1,4 +1,5 @@
 - name: School Readiness
+  slug:
   description:
   status:
   time_period:
@@ -6,6 +7,7 @@
   source_url:
 
 - name: 3rd Grade Reading
+  slug:
   description:
   status:
   time_period:
@@ -13,6 +15,7 @@
   source_url:
 
 - name: 4th Grade Reading & Math
+  slug:
   description:
   status:
   time_period:
@@ -20,6 +23,7 @@
   source_url:
 
 - name: High School Graduation
+  slug:
   description:
   status:
   time_period:
@@ -27,6 +31,7 @@
   source_url:
 
 - name: High School Dropout
+  slug:
   description:
   status:
   time_period:
@@ -34,6 +39,7 @@
   source_url:
 
 - name: College Graduation
+  slug:
   description:
   status:
   time_period:
@@ -41,6 +47,7 @@
   source_url:
 
 - name: Educational Attainment
+  slug:
   description:
   status:
   time_period:

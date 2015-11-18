@@ -1,4 +1,5 @@
 - name: Infrastructure Condition
+  slug:
   description:
   status:
   time_period:
@@ -6,6 +7,7 @@
   source_url:
 
 - name: Land Use
+  slug:
   description:
   status:
   time_period:
@@ -13,6 +15,7 @@
   source_url:
 
 - name: Multimodal Transportation
+  slug:
   description:
   status:
   time_period:
@@ -20,6 +23,7 @@
   source_url:
 
 - name: Traffic Congestion
+  slug:
   description:
   status:
   time_period:
