@@ -43,5 +43,17 @@ layout:
 
     {% include footer.html %}
 
+    <!-- Highcharts global options -->
+    <script>
+      $(function () {
+        Highcharts.setOptions({
+          lang: {
+            decimalPoint: '.',
+            thousandsSep: ','
+          }
+        });
+      });
+    </script>
+
   </body>
 </html>

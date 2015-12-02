@@ -1,3 +1,11 @@
+- name: Housing Prices
+  slug: housing-prices
+  description: Median housing prices are back on the rise following the collapse of the housing market during the Great Recession.
+  status: improving
+  time_period:
+  source: CA Realtors Association via Employment Development Department
+  source_url: http://www.labormarketinfo.edd.ca.gov/cgi/databrowsing/localareaprofileqsresults.asp?selectedarea=Sacramento+County&selectedindex=1&menuchoice=localareapro&state=true&geogarea=0604000067&countyname=
+
 - name: Infrastructure Condition
   slug:
   description:

@@ -69,3 +69,19 @@
   time_period:
   source:
   source_url:
+
+- name: Number of Businesses
+  slug: establishments
+  description: Following a contraction in the number of establishments, 2014 saw a significant rise.
+  status: improving
+  time_period:
+  source: Quarterly Census of Employment and Wages, Bureau of Labor Statistics
+  source_url: http://www.bls.gov/cew/
+
+- name: Labor Force
+  slug: labor-force
+  description:
+  status: steady
+  time_period:
+  source: Local Area Unemployment Statistics, Bureau of Labor Statistics
+  source_url: http://www.bls.gov/lau/

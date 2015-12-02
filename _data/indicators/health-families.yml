@@ -39,12 +39,12 @@
   source_url:
 
 - name: Health Insurance
-  slug:
-  description:
-  status:
+  slug: health-insurance
+  description: Changes in uninsured percentages in Sacramento County mostly track the data for the region (Sacramento, Placer, Yolo, El Dorado Counties). However, in general the percentage of the uninsured population is higher in Sacramento than in the four county region. There appears to be an increase in the percentage of those uninsured that tracks the economic downturn. The numbers significantly decrease recent years, perhaps due to implementation of the Affordable Care Act. Although the percentage of the population that is uninsured was still higher in 2014 than in 2001.
+  status: improving
   time_period:
-  source:
-  source_url:
+  source: California Health Information Survey
+  source_url: http://ask.chis.ucla.edu/
 
 - name: Immunization
   slug:
