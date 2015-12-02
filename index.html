@@ -7,7 +7,7 @@ tagline: Shaping the future of Sacramento, together.
 <div class="alert alert-dismissible alert-warning">
   <button type="button" class="close" data-dismiss="alert"><i class="fa fa-thumbs-up"></i></button>
   <h4>Thanks for visiting Sac2050.org! This site is a work-in-progress.</h4>
-  <p>On Saturday, November 14, 2015, everyday Sacramentans will gather at The Urban Hive in Midtown Sacramento to crowdsource data that will be used to light up this dashboard. We'd love to have you join us. <a href="https://www.eventbrite.com/e/sac2050-quality-of-life-civic-datathon-tickets-19245356379" class="alert-link" target="_blank">Get more details and register for the datathon.</a>.</p>
+  <p>On Saturday, November 14, 2015, ordinary Sacramentans gathered at The Urban Hive in Midtown Sacramento for <a href="https://www.eventbrite.com/e/sac2050-quality-of-life-civic-datathon-tickets-19245356379" class="alert-link" target="_blank">the region's first Quality of Life Civic Datathon</a>. We're adding that data to this website and will continue to iterate. Want to get involved? <a href="mailto:sac2050@codeforsacramento.org" class="alert-link" target="_blank">Hit us up!</a></p>
 </div>
 
 <h1 class="text-center">How are we doing, Sacramento?</h1>
@@ -53,7 +53,9 @@ tagline: Shaping the future of Sacramento, together.
           <ul class="list-unstyled">
             {% for indicator in site.data.indicators.economy %}
               <li>
-                {{ indicator.name }}
+                <a href="/economy#{{ indicator.slug }}">
+                  {{ indicator.name }}
+                </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
               </li>
             {% endfor %}
@@ -77,7 +79,9 @@ tagline: Shaping the future of Sacramento, together.
           <ul class="list-unstyled">
             {% for indicator in site.data.indicators.education %}
               <li>
-                {{ indicator.name }}
+                <a href="/education#{{ indicator.slug }}">
+                  {{ indicator.name }}
+                </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
               </li>
             {% endfor %}
@@ -101,7 +105,9 @@ tagline: Shaping the future of Sacramento, together.
           <ul class="list-unstyled">
             {% for indicator in site.data.indicators.health-families %}
               <li>
-                {{ indicator.name }}
+                <a href="/health-families#{{ indicator.slug }}">
+                  {{ indicator.name }}
+                </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
               </li>
             {% endfor %}
@@ -130,7 +136,9 @@ tagline: Shaping the future of Sacramento, together.
           <ul class="list-unstyled">
             {% for indicator in site.data.indicators.public-safety %}
               <li>
-                {{ indicator.name }}
+                <a href="/public-safety#{{ indicator.slug }}">
+                  {{ indicator.name }}
+                </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
               </li>
             {% endfor %}
@@ -154,7 +162,9 @@ tagline: Shaping the future of Sacramento, together.
           <ul class="list-unstyled">
             {% for indicator in site.data.indicators.sustainability %}
               <li>
-                {{ indicator.name }}
+                <a href="/sustainability#{{ indicator.slug }}">
+                  {{ indicator.name }}
+                </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
               </li>
             {% endfor %}
@@ -178,7 +188,9 @@ tagline: Shaping the future of Sacramento, together.
           <ul class="list-unstyled">
             {% for indicator in site.data.indicators.transportation-housing %}
               <li>
-                {{ indicator.name }}
+                <a href="/transportation-housing#{{ indicator.slug }}">
+                  {{ indicator.name }}
+                </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
               </li>
             {% endfor %}
