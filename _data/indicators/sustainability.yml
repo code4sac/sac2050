@@ -1,5 +1,5 @@
 - name: Air Quality
-  slug:
+  slug: air-quality
   description:
   status:
   time_period:
@@ -7,7 +7,7 @@
   source_url:
 
 - name: Energy
-  slug:
+  slug: energy
   description:
   status:
   time_period:
@@ -15,7 +15,7 @@
   source_url:
 
 - name: Historic Resources
-  slug:
+  slug: historic-resources
   description:
   status:
   time_period:
@@ -23,7 +23,7 @@
   source_url:
 
 - name: Land Preservation
-  slug:
+  slug: land-preservation
   description:
   status:
   time_period:
@@ -31,7 +31,7 @@
   source_url:
 
 - name: Solid Waste and Recycling
-  slug:
+  slug: solid-waste-recycling
   description:
   status:
   time_period:
@@ -39,7 +39,7 @@
   source_url:
 
 - name: Water Quality
-  slug:
+  slug: water-quality
   description:
   status:
   time_period:

@@ -1,5 +1,5 @@
 - name: Adoption
-  slug:
+  slug: adoption
   description:
   status:
   time_period:
@@ -7,7 +7,7 @@
   source_url:
 
 - name: Cancer
-  slug:
+  slug: cancer
   description:
   status:
   time_period:
@@ -15,7 +15,7 @@
   source_url:
 
 - name: Cardiovascular Disease
-  slug:
+  slug: heart-disease
   description:
   status:
   time_period:
@@ -23,7 +23,7 @@
   source_url:
 
 - name: Child Abuse & Neglect
-  slug:
+  slug: child-abuse
   description:
   status:
   time_period:
@@ -31,7 +31,7 @@
   source_url:
 
 - name: Foster Care
-  slug:
+  slug: foster-care
   description:
   status:
   time_period:
@@ -47,7 +47,7 @@
   source_url: http://ask.chis.ucla.edu/
 
 - name: Immunization
-  slug:
+  slug: immunization
   description:
   status:
   time_period:
@@ -55,7 +55,7 @@
   source_url:
 
 - name: Infant Mortality
-  slug:
+  slug: infant-mortality
   description:
   status:
   time_period:
@@ -63,7 +63,7 @@
   source_url:
 
 - name: Life Expectancy
-  slug:
+  slug: life-expectancy
   description:
   status:
   time_period:
@@ -71,7 +71,7 @@
   source_url:
 
 - name: Obesity
-  slug:
+  slug: obesity
   description:
   status:
   time_period:
@@ -79,7 +79,7 @@
   source_url:
 
 - name: Smoking
-  slug:
+  slug: smoking
   description:
   status:
   time_period:
@@ -87,7 +87,7 @@
   source_url:
 
 - name: Suicide
-  slug:
+  slug: suicide 
   description:
   status:
   time_period:

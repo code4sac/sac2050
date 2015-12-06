@@ -7,7 +7,7 @@
   source_url: http://www.labormarketinfo.edd.ca.gov/cgi/databrowsing/localareaprofileqsresults.asp?selectedarea=Sacramento+County&selectedindex=1&menuchoice=localareapro&state=true&geogarea=0604000067&countyname=
 
 - name: Infrastructure Condition
-  slug:
+  slug: infrastructure
   description:
   status:
   time_period:
@@ -15,7 +15,7 @@
   source_url:
 
 - name: Land Use
-  slug:
+  slug: land-use
   description:
   status:
   time_period:
@@ -23,7 +23,7 @@
   source_url:
 
 - name: Multimodal Transportation
-  slug:
+  slug: multimodal-transportation
   description:
   status:
   time_period:
@@ -31,7 +31,7 @@
   source_url:
 
 - name: Traffic Congestion
-  slug:
+  slug: traffic-congestion
   description:
   status:
   time_period:

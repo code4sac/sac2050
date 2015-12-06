@@ -1,5 +1,5 @@
 - name: Crime
-  slug:
+  slug: crime
   description:
   status:
   time_period:
@@ -7,7 +7,7 @@
   source_url:
 
 - name: Emergency Preparedness
-  slug:
+  slug: emergency-preparedness
   description:
   status:
   time_period:
@@ -15,7 +15,7 @@
   source_url:
 
 - name: Juvenile Intakes
-  slug:
+  slug: juvenile-intakes
   description:
   status:
   time_period:
@@ -23,7 +23,7 @@
   source_url:
 
 - name: Recidivism
-  slug:
+  slug: recidivism
   description:
   status:
   time_period:
@@ -31,7 +31,7 @@
   source_url:
 
 - name: Traffic Fatalities
-  slug:
+  slug: traffic-fatalities
   description:
   status:
   time_period:
