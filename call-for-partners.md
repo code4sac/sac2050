@@ -8,22 +8,24 @@ comments: true
 
 ## In Brief
 
-Code for Sacramento is seeking organizational partners to develop and pilot Sac2050.org — a web-based platform for [collective impact](http://ssir.org/articles/entry/collective_impact). Sac2050.org would serve as a civic operating system for the Sacramento region by (1) visualizing quality of life data, (2) providing rich context about the organizations, policies, and programs impacting those indicators,  and (3) empowering residents to engage in a conversation about how to accelerate progress.
+<p class="lead">Code for Sacramento is seeking organizational partners to develop and pilot Sac2050.org — a web-based platform for <a href="http://ssir.org/articles/entry/collective_impact">collective impact</a>. Sac2050.org would serve as a civic operating system for the Sacramento region by: (1) visualizing quality of life data, (2) providing rich context about the organizations, policies, and programs impacting those indicators,  and (3) empowering residents to engage in a conversation about how to accelerate progress.</p>
 
 While Sac2050.org is a digital platform, it will catalyze in-person collaboration and civic innovation. Sac2050 events will convene experts, stakeholders, and the general public to explore topics in depth and set ambitious quality of life goals we can achieve by 2050. In addition, subject matter workgroups will provide research and thought leadership on key challenges and opportunities. Code for Sacramento’s team of civic technologists will iteratively develop and refine Sac2050.org to ensure it meets the needs of users.
 
-We are seeking partners who can provide financial support for the development of Sac2050.org,  human capital to participate in workgroups, and capacity to assist with event organizing. We are asking for a two-year commitment to pilot the project in 2016 and 2017.
+**We are seeking partners who can provide financial support for the development of Sac2050.org,  human capital to participate in workgroups, and/or capacity to assist with event organizing. We are asking for a two-year commitment to pilot the project in 2016 and 2017.**
 
 ## Background
 
 Sac2050 is a project of Code for Sacramento. We’re building a diverse network of people and organizations collaborating to shape the future of the Sacramento region. We’re bringing together an inclusive community of young professionals, policy analysts, equity advocates, civic leaders, technologists, designers, makers, and dreamers who believe in the power of collective impact to accelerate quality of life improvements.
 
 Sac2050 seeks to transcend the short-term thinking that drives quarterly reports and annual budgets to develop a shared vision for the future that will empower the next two generations by answering the following questions:
+
 - Where are we at?
 - Where do we want to go?
 - How are we going to get there?
 
 Inspired by the Blueprint process of the early 2000s that modeled future transportation and land use planning, Code for Sacramento is convening residents to set ambitious goals in all quality of life areas:
+
 - The Economy
 - K-12 and Higher Education
 - Health and Families
@@ -32,6 +34,7 @@ Inspired by the Blueprint process of the early 2000s that modeled future transpo
 - Transportation and Housing
 
 Sac2050.org will become a portal that allows users to answer the following  questions for nearly any major quality of life issue:
+
 1. How are we doing?
 2. Who’s involved?
 3. What are some challenges and opportunities?

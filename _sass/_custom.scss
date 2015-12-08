@@ -3,6 +3,10 @@ body {
   padding-top: 81px;
   color: #607D8B !important;
 }
+a:hover {
+  color: $brand-primary;
+  text-decoration: none;
+}
 footer {
   margin: 2em 0;
 }
@@ -15,17 +19,7 @@ footer li {
 
 /* Sac2050 styles */
 .navbar-sac2050, .page-header-sac2050 {
-  background-color: $brand-sac2050;
-}
-.navbar-sac2050 .navbar-nav>li>a, .navbar-sac2050 .navbar-brand {
-  color: $brand-primary;
-}
-.sac {
-  color: $brand-primary;
-  font-weight: normal;
-}
-.year {
-  color: $brand-success;
+  background-color: $brand-primary;
 }
 
 /* Economy styles */
@@ -139,8 +133,5 @@ h2:before {
   color: #fa342e;
 }
 .fa-unreported {
-  color: #607D8B;
-}
-.list-unstyled a, .plain-text a {
   color: #607D8B;
 }
