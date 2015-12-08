@@ -1,9 +1,8 @@
-/* Required body padding for fixed navbar */
+/* Global styles */
 body {
   padding-top: 81px;
+  color: #607D8B !important;
 }
-
-/* Footer */
 footer {
   margin: 2em 0;
 }
@@ -14,12 +13,76 @@ footer li {
   font-size: 1.5em;
 }
 
+/* Sac2050 styles */
+.navbar-sac2050, .page-header-sac2050 {
+  background-color: $brand-sac2050;
+}
+.navbar-sac2050 .navbar-nav>li>a, .navbar-sac2050 .navbar-brand {
+  color: $brand-primary;
+}
+.sac {
+  color: $brand-primary;
+  font-weight: normal;
+}
+.year {
+  color: $brand-success;
+}
+
+/* Economy styles */
+.navbar-economy, .page-header-economy {
+  background-color: $brand-economy;
+  color: #fff;
+}
+.text-economy {
+  color: $brand-economy;
+}
+
+/* Education styles */
+.navbar-education, .page-header-education {
+  background-color: $brand-education;
+}
+.text-education {
+  color: $brand-education;
+}
+
+/* Health & Families styles */
+.navbar-health-families, .page-header-health-families {
+  background-color: $brand-health-families;
+}
+.text-health-families {
+  color: $brand-health-families;
+}
+
+/* Public Safety styles */
+.navbar-public-safety, .page-header-public-safety {
+  background-color: $brand-public-safety;
+}
+.text-public-safety {
+  color: $brand-public-safety;
+}
+
+/* Evironmental Sustainability styles */
+.navbar-sustainability, .page-header-sustainability {
+  background-color: $brand-sustainability;
+}
+.text-sustainability {
+  color: $brand-sustainability;
+}
+
+/* Transportation & Housing styles */
+.navbar-transportation-housing, .page-header-transportation-housing {
+  background-color: $brand-transportation-housing;
+}
+.text-transportation-housing {
+  color: $brand-transportation-housing;
+}
+
 /* Disqus Comments */
 #disqus_thread {
   margin-top: 80px;
 }
 
-/* Header on category pages */
+/* Page headers */
 .page-header {
   margin-top: -21px;
   margin-bottom: 40px;
@@ -28,7 +91,6 @@ footer li {
   font-size: 24px;
   position: relative;
   text-align: center;
-  background-color: $brand-primary;
   color: #fff;
 }
 .page-header h1 {
@@ -76,6 +138,9 @@ h2:before {
 .fa-worsening {
   color: #fa342e;
 }
-.list-unstyled a {
-  color: $brand-primary;
+.fa-unreported {
+  color: #607D8B;
+}
+.list-unstyled a, .plain-text a {
+  color: #607D8B;
 }

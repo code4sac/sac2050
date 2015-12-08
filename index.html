@@ -1,5 +1,6 @@
 ---
 layout: home
+category: sac2050
 title: Sac2050
 tagline: Shaping the future of Sacramento, together.
 ---
@@ -40,7 +41,7 @@ tagline: Shaping the future of Sacramento, together.
 
     <!-- The Economy -->
     <div class="col-sm-4">
-      <div class="panel">
+      <div class="panel text-economy">
         <div class="panel-heading text-center">
           <h3 class="panel-title">
             <a href="/economy">
@@ -50,10 +51,10 @@ tagline: Shaping the future of Sacramento, together.
           </h3>
         </div>
         <div class="panel-body">
-          <ul class="list-unstyled">
+          <ul class="list-unstyled plain-text">
             {% for indicator in site.data.indicators.economy %}
               <li>
-                <a href="/economy#{{ indicator.slug }}">
+                <a href="/economy#{{ indicator.slug }}" class="text-economy">
                   {{ indicator.name }}
                 </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
@@ -66,7 +67,7 @@ tagline: Shaping the future of Sacramento, together.
 
     <!-- Education -->
     <div class="col-sm-4">
-      <div class="panel">
+      <div class="panel text-education">
         <div class="panel-heading text-center">
           <h3 class="panel-title">
             <a href="/education">
@@ -76,10 +77,10 @@ tagline: Shaping the future of Sacramento, together.
           </h3>
         </div>
         <div class="panel-body">
-          <ul class="list-unstyled">
+          <ul class="list-unstyled plain-text">
             {% for indicator in site.data.indicators.education %}
               <li>
-                <a href="/education#{{ indicator.slug }}">
+                <a href="/education#{{ indicator.slug }}" class="text-education">
                   {{ indicator.name }}
                 </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
@@ -92,7 +93,7 @@ tagline: Shaping the future of Sacramento, together.
 
     <!-- Health & Families -->
     <div class="col-sm-4">
-      <div class="panel">
+      <div class="panel text-health-families">
         <div class="panel-heading text-center">
           <h3 class="panel-title">
             <a href="/health-families">
@@ -102,10 +103,10 @@ tagline: Shaping the future of Sacramento, together.
           </h3>
         </div>
         <div class="panel-body">
-          <ul class="list-unstyled">
+          <ul class="list-unstyled plain-text">
             {% for indicator in site.data.indicators.health-families %}
               <li>
-                <a href="/health-families#{{ indicator.slug }}">
+                <a href="/health-families#{{ indicator.slug }}" class="text-health-families">
                   {{ indicator.name }}
                 </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
@@ -123,7 +124,7 @@ tagline: Shaping the future of Sacramento, together.
 
     <!-- Public Safety -->
     <div class="col-sm-4">
-      <div class="panel">
+      <div class="panel text-public-safety">
         <div class="panel-heading text-center">
           <h3 class="panel-title">
             <a href="/public-safety">
@@ -133,10 +134,10 @@ tagline: Shaping the future of Sacramento, together.
           </h3>
         </div>
         <div class="panel-body">
-          <ul class="list-unstyled">
+          <ul class="list-unstyled plain-text">
             {% for indicator in site.data.indicators.public-safety %}
               <li>
-                <a href="/public-safety#{{ indicator.slug }}">
+                <a href="/public-safety#{{ indicator.slug }}" class="text-public-safety">
                   {{ indicator.name }}
                 </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
@@ -147,9 +148,9 @@ tagline: Shaping the future of Sacramento, together.
       </div>
     </div>
 
-    <!-- Natural Resources -->
+    <!-- Environmental Sustainability -->
     <div class="col-sm-4">
-      <div class="panel">
+      <div class="panel text-sustainability">
         <div class="panel-heading text-center">
           <h3 class="panel-title">
             <a href="/sustainability">
@@ -159,10 +160,10 @@ tagline: Shaping the future of Sacramento, together.
           </h3>
         </div>
         <div class="panel-body">
-          <ul class="list-unstyled">
+          <ul class="list-unstyled plain-text">
             {% for indicator in site.data.indicators.sustainability %}
               <li>
-                <a href="/sustainability#{{ indicator.slug }}">
+                <a href="/sustainability#{{ indicator.slug }}" class="text-sustainability">
                   {{ indicator.name }}
                 </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>
@@ -175,7 +176,7 @@ tagline: Shaping the future of Sacramento, together.
 
     <!-- Transporation & Housing -->
     <div class="col-sm-4">
-      <div class="panel">
+      <div class="panel text-transportation-housing">
         <div class="panel-heading text-center">
           <h3 class="panel-title">
             <a href="/transportation-housing">
@@ -185,10 +186,10 @@ tagline: Shaping the future of Sacramento, together.
           </h3>
         </div>
         <div class="panel-body">
-          <ul class="list-unstyled">
+          <ul class="list-unstyled plain-text">
             {% for indicator in site.data.indicators.transportation-housing %}
               <li>
-                <a href="/transportation-housing#{{ indicator.slug }}">
+                <a href="/transportation-housing#{{ indicator.slug }}" class="text-transportation-housing">
                   {{ indicator.name }}
                 </a>
                 <i class="fa fa-circle fa-{{ indicator.status }} pull-right"></i>

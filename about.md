@@ -1,5 +1,6 @@
 ---
 layout: default
+category: sac2050
 title: About Sac2050
 tagline: Where are we at? Where do we want to go? How are we going to get there?
 comments: true

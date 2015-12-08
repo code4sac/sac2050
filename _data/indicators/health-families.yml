@@ -1,7 +1,7 @@
 - name: Adoption
   slug: adoption
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -9,7 +9,7 @@
 - name: Cancer
   slug: cancer
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -17,7 +17,7 @@
 - name: Cardiovascular Disease
   slug: heart-disease
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -25,7 +25,7 @@
 - name: Child Abuse & Neglect
   slug: child-abuse
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -33,7 +33,7 @@
 - name: Foster Care
   slug: foster-care
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -49,7 +49,7 @@
 - name: Immunization
   slug: immunization
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -57,7 +57,7 @@
 - name: Infant Mortality
   slug: infant-mortality
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -65,7 +65,7 @@
 - name: Life Expectancy
   slug: life-expectancy
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -73,7 +73,7 @@
 - name: Obesity
   slug: obesity
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -81,15 +81,15 @@
 - name: Smoking
   slug: smoking
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
 
 - name: Suicide
-  slug: suicide 
+  slug: suicide
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:

@@ -1,7 +1,7 @@
 - name: School Readiness
   slug: school-readiness
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -9,7 +9,7 @@
 - name: 3rd Grade Reading
   slug: 3rd-grade-reading
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -17,7 +17,7 @@
 - name: 4th Grade Reading & Math
   slug: 4th-grade-reading-math
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -25,7 +25,7 @@
 - name: High School Graduation
   slug: high-school-graduation
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -33,7 +33,7 @@
 - name: High School Dropout
   slug: high-school-dropout
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -41,7 +41,7 @@
 - name: College Graduation
   slug: college-graduation
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -49,7 +49,7 @@
 - name: Educational Attainment
   slug: educational-attainment
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:

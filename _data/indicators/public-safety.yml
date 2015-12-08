@@ -1,7 +1,7 @@
 - name: Crime
   slug: crime
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -9,7 +9,7 @@
 - name: Emergency Preparedness
   slug: emergency-preparedness
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -17,7 +17,7 @@
 - name: Juvenile Intakes
   slug: juvenile-intakes
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -25,7 +25,7 @@
 - name: Recidivism
   slug: recidivism
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:
@@ -33,7 +33,7 @@
 - name: Traffic Fatalities
   slug: traffic-fatalities
   description:
-  status:
+  status: unreported
   time_period:
   source:
   source_url:

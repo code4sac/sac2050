@@ -1,5 +1,6 @@
 ---
 layout: default
+category: sac2050
 title: Get Started
 tagline: Instructions for the November 14, 2015 Civic Datathon
 comments: true
