@@ -56,11 +56,11 @@
 
 - name: Unemployment
   slug: unemployment
-  description:
-  status: unreported
-  time_period:
-  source:
-  source_url:
+  description: Unemployment has been steadily decreasing since 2010. 
+  status: improving
+  time_period: 2006-2015
+  source: Bureau of Labor Statistics
+  source_url: http://beta.bls.gov/dataViewer/view/timeseries/LAUMT064090000000003
 
 - name: Workforce Quality
   slug: workforce-quality
