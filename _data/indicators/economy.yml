@@ -6,6 +6,14 @@
   source:
   source_url:
 
+- name: Average Annual Pay (Today's Dollars)
+  slug: average-annual-pay-infl-adj
+  description: "Real wages haven't improved since the Great Recession of 2008."
+  status: steady
+  time_period: 2001-2014
+  source: Bureau of Labor Statistics
+  source_url: www.bls.gov
+
 - name: Business Climate
   slug: business-climate
   description:
