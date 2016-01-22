@@ -1,10 +1,18 @@
-- name: Air Quality
-  slug: air-quality
-  description:
-  status: unreported
+- name: Air Quality (Particulate Matter)
+  slug: air-quality-pm25
+  description: "Particulate matter are tiny bits of metals, soot, soil and dust found in the air. High levels can worsen heart and lung diseases (especially in the elderly and the very young). The California standard is 12 mpcm, which is the 'maximum amount of pollutant that can be present in outdoor air without harming human health.' The California Air Resources Board tracks two sizes: up to 10 microns (PM10) and 2.5 microns (PM2.5). This chart is yearly averages of PM2.5."
+  status: steady
   time_period:
-  source:
-  source_url:
+  source: California Air Resources Board
+  source_url: http://www.arb.ca.gov/adam/
+
+- name: Air Quality (Ozone)
+  slug: air-quality-ozone
+  description: "Ozone (smog) can damage living cells in the lungs. It can cause coughing, chest tightness, and increase asthma symptoms. The California standard is 0.07 ppm, which is the 'maximum amount of pollutant that can be present in outdoor air without harming human health.' The California Air Resources Board reports the ppm for the worst 8 hours of each year (shown here). (California Air Resources Board)"
+  status: improving
+  time_period:
+  source: California Air Resources Board
+  source_url: http://www.arb.ca.gov/adam/
 
 - name: Energy
   slug: energy
