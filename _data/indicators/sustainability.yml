@@ -16,11 +16,11 @@
 
 - name: Energy
   slug: energy
-  description:
-  status: unreported
+  description: "'SMUD became the only large California utility to meet the statewide goal of supplying 20% of its power from renewables in 2010. SMUD supplied more than 24% of its retail sales with renewable energy in 2010, beating its goal of 23.8%.' (SMUD) (Note: 2014-2015 figures are projected.)"
+  status: improving
   time_period:
-  source:
-  source_url:
+  source: Sacramento Municipal Utility District (SMUD)
+  source_url: http://www.energy.ca.gov/portfolio/pous/smud/RPS_Procurement_Plan_FINAL_11-21.pdf
 
 - name: Historic Resources
   slug: historic-resources
