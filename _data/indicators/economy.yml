@@ -57,10 +57,10 @@
 - name: Poverty
   slug: poverty
   description:
-  status: unreported
-  time_period:
-  source:
-  source_url:
+  status: steady
+  time_period: 2005-2014
+  source: US Census
+  source_url: 'http://www.census.gov/did/www/saipe/data/interactive/saipe.html?s_appName=saipe&map_yearSelector=2014&map_geoSelector=aa_c&s_county=06067&s_state=06&menu=grid_proxy&s_year=2014,2013,2012,2011,2010,2009,2007,2008,2006,2005'
 
 - name: Unemployment
   slug: unemployment
