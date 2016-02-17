@@ -80,11 +80,11 @@
 
 - name: Smoking
   slug: smoking
-  description:
+  description: 17.6% of adults in Sacramento County were smokers in 2014. <iframe width='600' height='500' allowfullscreen='true' frameborder='0' src='http://bit.ly/1pVClkA'></iframe>
   status: unreported
   time_period:
-  source:
-  source_url:
+  source: California Health Interview Survey
+  source_url: http://healthpolicy.ucla.edu/Pages/home.aspx
 
 - name: Suicide
   slug: suicide
@@ -96,7 +96,7 @@
 
 - name: Teen Pregnancy
   slug: teen-pregnancy
-  description: In Sacramento from 2008 to 2011, there were 5509 births by mothers under 20.  The data shows a slight decline in births by mother under the age of 20 by almost a half of a percent perhaps due to education and awareness. Zip codes included are 95812 through 95835, 95838, 95841, 95842, 95864.
+  description: In Sacramento from 2008 to 2011, there were 5,509 births by mothers under 20.  The data shows a slight decline in births by mother under the age of 20 by almost a half of a percent perhaps due to education and awareness. Zip codes included are 95812 through 95835, 95838, 95841, 95842, 95864.
   status: improving
   time_period: 2008-2012
   source: California Department of Public Health
