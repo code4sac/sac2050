@@ -30,11 +30,11 @@
   source:
   source_url:
 
-- name: High School Dropout
-  slug: high-school-dropout
+- name: High School Dropouts
+  slug: high-school-dropouts
   description:
-  status: unreported
-  time_period:
+  status: steady
+  time_period: 1993-2014
   source:
   source_url:
 
