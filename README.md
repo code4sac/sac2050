@@ -1,3 +1,5 @@
+[![Stories in Ready](https://badge.waffle.io/code4sac/sac2050.svg?label=ready&title=Ready)](http://waffle.io/code4sac/sac2050)
+
 # Sac2050: Shaping the future of Sacramento, together.
 
 Code for Sacramento is forming a broad-based coalition of stakeholders committed to shaping the future of the Sacramento region. Inspired by the Blueprint process of the early 2000s that modeled future transportation and land use planning, we're convening residents to set goals in all quality of life areas:
