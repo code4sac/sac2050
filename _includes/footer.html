@@ -19,15 +19,28 @@
  </div>
 </footer>
 
-<!-- Bootstrap JS v3.3.5 -->
+<!-- jQuery
+================================================== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Bootstrap JS v3.3.5
+================================================== -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<!-- Disqus -->
+<!-- MailChimp Ajax Magic
+================================================== -->
+<script src="/js/jquery.ajaxchimp.js"></script>
+<script>
+  $('#mc-form').ajaxChimp({
+    url: 'https://codeforsacramento.us3.list-manage.com/subscribe/post?u=3938e5bd1ff827e6f3903ca84&amp;id=79ae93ca5f'
+  });
+</script>
+<!-- Disqus
+================================================== -->
 <script id="dsq-count-scr" src="https://sac2050.disqus.com/count.js" async></script>
-<!-- Smooth scroll -->
+<!-- Smoothscroll
+================================================== -->
 <script>
   $(".scroll").click(function(event){
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
-
   });
 </script>
