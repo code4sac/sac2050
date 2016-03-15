@@ -15,10 +15,19 @@ layout:
       <div class="container">
         <h1>{{ page.title }}</h1>
         <p>{{ page.tagline }}</p>
+        {% include email_signup.html %}
       </div>
     </div>
 
-    {% include email_signup.html %}
+    <div class="container">
+      <div class="alert alert-dismissible alert-info">
+        <button type="button" class="close" data-dismiss="alert"><i class="fa fa-thumbs-up"></i></button>
+        <h4>Thanks for visiting Sac2050.org! This site is a work-in-progress.</h4>
+        <p>We're adding that data to this website and will continue to iterate. Want to get involved? <a href="mailto:hello@sac2050.org" class="alert-link" target="_blank">Hit us up!</a></p>
+      </div>
+    </div>
+
+    {% include call_to_action.html %}
 
     <!-- Main container -->
     <div class="container">

@@ -106,15 +106,8 @@ h2:before {
 	padding-top: 40px;
 }
 .panel {
-	border: 0px solid transparent;
-	border-radius: 0px;
 	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
 	box-shadow: 0 0px 0px rgba(0,0,0,0);
-}
-.panel-heading {
-	border-bottom: 0px solid transparent;
-	border-top-right-radius: 0;
-	border-top-left-radius: 0;
 }
 .panel-title {
   font-size: 28px;
@@ -134,4 +127,8 @@ h2:before {
 }
 .fa-unreported {
   color: #607D8B;
+}
+
+.cushion-top {
+  padding-top: 30px;
 }
